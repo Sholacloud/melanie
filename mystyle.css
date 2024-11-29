@@ -432,7 +432,7 @@ button:hover{
         img{
             margin: 0px auto;
             height: 250px;
-            width: 140px;
+            width: 240px;
         }
 
         #header{
@@ -732,6 +732,7 @@ button:hover{
 
         .con{
             display: flex;
+            padding: 10px;
         }
 
          button::after {
@@ -745,4 +746,219 @@ button:hover{
             background-color: rgb(117, 16, 117);
             color: #fff;
         }
+    }
+
+    @media  (max-width: 320px){
+        img{
+            margin: 0px auto;
+            height: 250px;
+            width: 310px;
+        }
+
+        #header{
+            width: 190px;
+            font-size: small;
+            position: absolute;
+            z-index: 1;
+             top: 430px;
+            left: 80px;
+            color: #1e1414;
+        }
+
+        
+        #aboutus{
+            position: relative;
+            top: -500px;
+            padding: 3px;
+            width: 100%;
+            height: 550px;
+        }
+
+        article{
+            display: flex;
+        }
+
+        .column{
+            position: relative;
+            left: -25px;
+        }
+        #passage{
+            font-size: 10px;
+            width: 120px;
+            
+        }
+
+        #black{
+            position: relative;
+            border: 1px solid black;
+            top: 130px;
+            left: -20px;
+            z-index: 2;
+            width: 7em;
+            height: 7em;
+        }
+        
+        #fairy{
+            border: 1px solid black;
+            position: relative;
+            top: 220px;
+            left: -150px;
+            width: 7em;
+            height: 7em;
+            z-index: 1;
+        }
+
+        #gallery{
+            position: relative;
+            top: -390px;
+        }
+
+        .gallery{
+            font-size: 10px;
+        }
+
+
+        #image{
+            margin-top: 10px;
+            margin-right: 50px;
+            height: 7em;
+            width: 7em;
+        }
+
+        #contacts{
+            position: relative;
+            top: -390px;
+           height: 100px;
+
+        }
+
+        #face{
+            height: 350px;
+            width: 435px;
+        }
+
+        .con{
+            display: flex;
+            padding: 10px;
+        }
+
+         button::after {
+            text-decoration: underline;
+            background-color: rgb(171, 110, 171);
+            color: #fff;
+        }
+
+        button:hover{
+            text-decoration: underline;
+            background-color: rgb(117, 16, 117);
+            color: #fff;
+        }
+    }
+
+    @media (max-width: 600px) {
+        img{
+            margin: 0px auto;
+            height: 250px;
+            width: 390px;
+        }
+
+        #header{
+            width: 190px;
+            font-size: small;
+            position: absolute;
+            z-index: 1;
+             top: 430px;
+            left: 100px;
+            color: #232121;
+        }
+
+        
+        #aboutus{
+            position: relative;
+            top: -380px;
+            padding: 3px;
+            width: 100%;
+            height: 650px;
+        }
+
+        article{
+            display: flex;
+        }
+
+        .column{
+            position: relative;
+            left: -25px;
+        }
+        #passage{
+            font-size: 10px;
+            width: 120px;
+            
+        }
+
+        #black{
+            position: relative;
+            border: 1px solid black;
+            top: 90px;
+            left: -20px;
+            z-index: 2;
+            width: 9em;
+            height: 9em;
+        }
+        
+        #fairy{
+            border: 1px solid black;
+            position: relative;
+            top: 200px;
+            left: -150px;
+            width: 9em;
+            height: 9em;
+            z-index: 1;
+        }
+
+        #gallery{
+            position: relative;
+            top: -390px;
+        }
+
+        .gallery{
+            font-size: 10px;
+        }
+
+
+        #image{
+            margin-top: 10px;
+            margin-right: 50px;
+            height: 8em;
+            width: 8em;
+        }
+
+        #contacts{
+            position: relative;
+            top: -390px;
+           height: 200px;
+
+        }
+
+        #face{
+            height: 350px;
+            width: 400px;
+        }
+
+        .con{
+            padding: 5px;
+            display: flex;
+        }
+
+         button::after {
+            text-decoration: underline;
+            background-color: rgb(171, 110, 171);
+            color: #fff;
+        }
+
+        button:hover{
+            text-decoration: underline;
+            background-color: rgb(117, 16, 117);
+            color: #fff;
+        }
+
     }
