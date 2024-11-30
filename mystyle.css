@@ -230,13 +230,13 @@ button:hover{
         font-size: 9px;
         top: -40px;
         padding: 0px;
-        margin-left: 50px;
+      
     }
 
     .columnright{
         position: relative;
         top: 15px;
-        left: -320px;
+        left: -295px;
     }
 
     .gallery{
