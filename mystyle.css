@@ -236,7 +236,7 @@ button:hover{
     .columnright{
         position: relative;
         top: 15px;
-        left: -330px;
+        left: -295px;
     }
 
     .gallery{
@@ -246,10 +246,17 @@ button:hover{
 
     #image{
         width: 250px;
-        margin-right: 95px;
+        margin-right: 100px;
     }
     
+    .con{
+        background-color: bisque;
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
 }
+/*
 @media (max-width: 350px){
     nav ul {
         display: none;
