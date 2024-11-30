@@ -201,7 +201,7 @@ button:hover{
     }
 
     body{
-        max-width: 750px;
+        max-width: 1150px;
     }
 
     .logo{
@@ -250,7 +250,65 @@ button:hover{
     }
     
 }
+@media (max-width: 450px){
+    nav ul {
+        display: none;
+    }
 
+    h1{
+        padding: 0px 40%;
+    }
+
+    body{
+        max-width: 550px;
+    }
+
+    .logo{
+        padding: 0px 40%;
+    }
+
+    img{
+        min-width: 100px;
+    }
+
+    #header{
+        top: 350px;
+        left: 80px;
+        font-size: 10px;
+        min-height: 20px;
+    }
+
+    #lori{
+        min-width: 110px;
+        height: 140px;
+        top: -20px;
+    }
+
+    .column{
+        position: relative;
+        font-size: 9px;
+        top: -40px;
+        padding: 0px;
+        margin-left: 30px;
+    }
+
+    .columnright{
+        position: relative;
+        top: 15px;
+        left: -350px;
+    }
+
+    .gallery{
+        font-size: 10px;
+        max-width: 350px;
+    }
+
+    #image{
+        width: 250px;
+        margin-right: 100px;
+    }
+    
+}
 
 /*
 @media (max-widt2: 780px) and (max-width: 480px)  { 
